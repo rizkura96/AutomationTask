@@ -1,4 +1,5 @@
 Feature: API Automation
+  @TechnicalTest
   Scenario: Retrieve Product Details
     Given I send a GET request to retrieve the product details
     Then the response has a status code of 200
